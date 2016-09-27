@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{48F75016-221E-4451-B570-96D2AF26443C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FCF95807-AEA0-4CB1-AAED-83469A602713}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Authentication-ExtraExploration", "src\Authentication-ExtraExploration\Authentication-ExtraExploration.xproj", "{B1B6CB9B-7C03-4DB1-AED5-99C08BE47C48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1B6CB9B-7C03-4DB1-AED5-99C08BE47C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B6CB9B-7C03-4DB1-AED5-99C08BE47C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B6CB9B-7C03-4DB1-AED5-99C08BE47C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B6CB9B-7C03-4DB1-AED5-99C08BE47C48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1B6CB9B-7C03-4DB1-AED5-99C08BE47C48} = {48F75016-221E-4451-B570-96D2AF26443C}
+	EndGlobalSection
+EndGlobal
